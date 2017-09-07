@@ -1,2 +1,2 @@
-# E-reciept
-Its a banking system for rural people .It consists of a admin who lends the money with a particular interest rate,
+# Ereceipt_for_pigmy_collectors
+Its a banking system for pigmy collectors and small scale banking system

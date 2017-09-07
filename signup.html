@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+<link rel= "stylesheet" href="css/style.css"> 
+<style>
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=date],input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+</style>
+<body>
+
+<h2><p><font size="25" color =#ffff80>Application for Loan</font></p></h2>
+<form action="Registration of loan.php" method="post">
+
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <label><b>First Name</b></label>
+    <input type="text" placeholder="Enter your First Name" name="fname" required>
+<label><b>Last Name</b></label>
+    <input type="text" placeholder="Enter your Last Name" name="lname" required>
+
+   
+	 
+	 <label><b>Aadhar no:</b></label>
+    <input type="text" placeholder="Enter Aadhar no." name="aadharno" required>
+	
+		 <label><b>Issue date</b></label>
+    <input type="date" placeholder="Enter Issue date" name="isdt" required>
+	
+		 <label><b>Loan amt</b></label>
+    <input type="text" placeholder="Enter Loan amt" name="loan" required>
+	
+		 <label><b>Interest period</b></label>
+    <input type="text" placeholder="Enter interest period" name="ip" required>
+	
+		 <label><b>Interest rate</b></label>
+    <input type="text" placeholder="Enter interest rate" name="ir" required>
+	
+		 <label><b>E-mail id</b></label>
+    <input type="email" placeholder="Enter Email-id" name="email" required>
+	
+			 <label><b>phone no</b></label>
+    <input type="text" placeholder="Enter phone no " name="ph" required>
+	
+			 <label><b>Address</b></label>
+    <input type="text" placeholder="Enter Address " name="ad" required>
+	
+	
+			 <label><b>Pin code</b></label>
+    <input type="text" placeholder="Enter pin code" name="pc" required>
+	
+	
+    
+   
+    <p>By Registring you accept  that Above mentioned data is  Correct </p>
+
+    <div class="clearfix">
+      <a href="index.html"><button type="button" class="cancelbtn">Cancel</button></a>
+      <button type="submit" class="signupbtn">Register for Loan</button>
+    </div>
+  </div>
+</form>
+
+</body>
+</html>
+
